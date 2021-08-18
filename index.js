@@ -43,6 +43,12 @@ const main = async () => {
             }
         });
 
+        await Cat.destroy({
+            where: {
+                name: "horatio"
+            }
+        });
+
     } catch (error) {
         console.log("Connection failed");
         console.log(error);
