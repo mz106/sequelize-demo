@@ -45,7 +45,7 @@ const main = async () => {
 
         await Cat.destroy({
             where: {
-                name: "horatio"
+                name: "jam"
             }
         });
 
